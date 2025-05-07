@@ -1,0 +1,14 @@
+name: q
+labels:
+  en_US: q
+  ja_JP: q
+  zh_Hans: q
+  pt_BR: q
+description:
+  en_US: ""
+icon: icon.svg
+version: 0.0.1
+author: ~/Downloads/dify-plugin-darwin-arm64 plugin package .
+type: bundle
+dependencies: []
+tags: []

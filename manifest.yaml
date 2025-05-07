@@ -1,0 +1,34 @@
+version: 0.0.1
+type: plugin
+author: scrapegraphai
+name: scrapegraphai
+label:
+  en_US: scrapegraphai
+  ja_JP: scrapegraphai
+  zh_Hans: scrapegraphai
+  pt_BR: scrapegraphai
+description:
+  en_US: Scrapegraphai integration for LLM powered scraping
+  ja_JP: Scrapegraphai integration for LLM powered scraping
+  zh_Hans: Scrapegraphai integration for LLM powered scraping
+  pt_BR: Scrapegraphai integration for LLM powered scraping
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission: {}
+plugins:
+  tools:
+    - provider/scrapegraphai.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: null
+created_at: 2025-05-07T18:16:34.597127+05:30
+privacy: PRIVACY.md
+verified: false
