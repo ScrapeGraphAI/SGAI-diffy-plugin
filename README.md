@@ -27,6 +27,32 @@ ScrapeGraphAI is a powerful suite of LLM-driven web scraping tools designed to e
 2. Choose Your Service: Select from our specialized extraction services based on your needs
 3. Start Extracting: Begin extracting data using our SDKs or direct API calls
 
+## Installation and Usage
+
+1. **Install the Plugin**
+   - Install the ScrapeGraphAI plugin from the marketplace
+
+2. **Authorization**
+   - Authorize the plugin using your API key
+
+3. **Incorporate in Workflows**
+   - Add the tool to your workflows
+
+4. **Using the Tool**
+   The tool provides three methods:
+   - `searchscraper`: For finding and extracting specific data
+   - `smartscraper`: For AI-powered extraction from any webpage
+   - `markdownify`: For converting web content to Markdown format
+
+   You need 3 parameters based on the method:
+   - `method`: Choose one of the three methods based on your use case
+   - `website_url`: Required for smartscraper and markdownify methods
+   - `user_prompt`: Required for smartscraper and searchscraper methods
+
+   Parameter requirements by method:
+   - `smartscraper`: Requires all three parameters (method, website_url, user_prompt)
+   - `searchscraper`: Requires method and user_prompt only
+   - `markdownify`: Requires method and website_url only
 
 ## Support
 
@@ -38,15 +64,12 @@ For any support or queries, please contact:
 
 - [Plugin Repository](https://github.com/ScrapeGraphAI/SGAI-diffy-plugin)
 
-
-
 ## Resources
 
 - [Documentation](https://docs.scrapegraphai.com)
 - [GitHub Repository](https://github.com/scrapegraphai/scrapegraph-ai)
 
 ## License
-
 
 This project is open source. Check out our open-source core at: [github.com/scrapegraphai/scrapegraph-ai](https://github.com/scrapegraphai/scrapegraph-ai)
 
